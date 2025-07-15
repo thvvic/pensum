@@ -1,1 +1,29 @@
 
+body {
+    font-family: Arial, sans-serif;
+    background: #fff0f5;
+    color: #333;
+    padding: 20px;
+}
+h1, h2 {
+    color: #cc0066;
+}
+.semestre {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 2px solid #cc3399;
+    background-color: #ffe6f0;
+}
+button.materia {
+    background-color: #f8cce9;
+    border: 1px solid #cc3399;
+    padding: 5px 10px;
+    margin: 3px 0;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+}
+button.materia.aprobada {
+    background-color: #b3e6b3;
+    text-decoration: line-through;
+}
